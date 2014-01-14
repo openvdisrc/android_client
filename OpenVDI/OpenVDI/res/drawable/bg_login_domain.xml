@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap
+            android:src="@drawable/btn_login_active" />
+    </item>
+    
+    <item
+        android:bottom="2dp"
+        android:right="20dp"
+        android:top="2dp">
+        <bitmap
+            android:gravity="right"            
+            android:src="@drawable/arrow_right" />
+    </item>
+
+</layer-list>

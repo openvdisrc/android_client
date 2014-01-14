@@ -1,0 +1,5 @@
+package com.openvdi.remoteclient.operations;
+
+public class GetDomainList {
+
+}

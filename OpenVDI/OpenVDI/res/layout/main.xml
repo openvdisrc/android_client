@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dark"
+    tools:context=".MainActivity" >
+	<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+         <TableRow
+             android:id="@+id/tableRow1"
+             android:layout_width="fill_parent"
+         	android:layout_height="0dp" 
+         	android:layout_weight=".30"  
+         	android:gravity="top|center_horizontal"  > 
+         	
+		    <ImageView
+		        android:id="@+id/openvdi_logo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="20sp"
+		        android:contentDescription="@string/app_logo"
+		        android:src="@drawable/openvdi_logo_full" />
+    		</TableRow>
+    
+         <TableRow
+             android:id="@+id/tableRow2"
+             android:layout_width="fill_parent"
+         	android:layout_height="0dp" 
+         	android:layout_weight=".20"  
+         	android:gravity="top|center_horizontal"  > 
+         	
+		    <TextView
+		        android:id="@+id/welcome"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/main_welcome"
+		        android:textColor="@color/White"
+		        android:gravity="center"  />
+         </TableRow>
+  			
+         <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+         	android:layout_height="0dp" 
+         	android:layout_weight=".20"  
+         	android:gravity="bottom|center_horizontal"  > 
+         		
+		    <Button
+		        android:id="@+id/btnAddServer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_state_main"
+		        android:text="@string/add_server"
+		        android:textColor="@drawable/btn_state_color"
+		        android:textStyle="bold" />
+         </TableRow>
+			
+         <TableRow
+             android:id="@+id/tableRow4"
+             android:layout_width="fill_parent"
+         	android:layout_height="0dp" 
+         	android:layout_weight=".20"  
+         	android:gravity="top|center_horizontal"  > 
+		    <Button
+		        android:id="@+id/btnServerList"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/btn_state_main"
+		        android:text="@string/server_list"
+		        android:textColor="@drawable/btn_state_color"
+		        android:textStyle="bold" />
+         </TableRow>
+		
+    </TableLayout>
+</RelativeLayout>

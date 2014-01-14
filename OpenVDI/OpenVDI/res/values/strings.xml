@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenVDI</string>
+    <string name="app_logo">OpenVDI Logo</string>
+    <string name="main_title">OpenVDI</string>
+    <string name="main_welcome">Welcome to OpenVDI</string>
+    <string name="add_server">Add Server</string>
+    <string name="server_list">Server List</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_add">+</string>
+    <string name="login">Login</string>
+    <string name="main_btn_add_server">Add Server</string>
+    <string name="main_btn_server_list">Server List</string>
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_hint_domain">Default domain name</string>
+    <string name="connect">Domain Name\'s</string>
+    <string name="domain">Domains</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="add_server_text_enter_ip">Enter the host name or IP address of a</string>
+    <string name="add_server_text_openvdi_server">OpenVDI Server</string>
+    <string name="add_server_btn_connect">Connect</string>
+    <string name="add_server_hint_connection_name">Connection Name</string>
+    <string name="search_label">aFreeRDP</string>
+    <string name="search_settings_description">Remote Computers</string>
+
+</resources>
